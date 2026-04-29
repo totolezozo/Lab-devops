@@ -4,6 +4,7 @@ items = []
 
 def normalize_item(item):
     """Normalize an item by stripping whitespace and title-casing."""
+    # Test CI workflow
     return item.strip().title() if item else ""
 
 def create_app():
